@@ -1,16 +1,18 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '3.2.3'
+gem 'rails'
 
 group :development do
-	gem 'sqlite3', '1.3.5'
+	gem 'sqlite3'
 end
 
 group :assets do
-	gem 'sass-rails', '3.2.4'
-	gem 'uglifier', '1.2.3'
-	gem 'coffee-rails', '3.2.2'
+	gem 'sass-rails'
+	gem 'uglifier'
+	gem 'coffee-rails'
 end
 
 gem 'jquery-rails'
+
+gem 'tzinfo-data'
